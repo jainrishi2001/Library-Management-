@@ -5,7 +5,7 @@ HOW TO SETUP :
 2. Now Save the Code1 Folder in your htdocs folder of XAMPP.
 3. Now lets' setup our database.
 4. Create a Database named library_db in PHPMyAdmin.
-5. Now run following code:
+5. Now run following code in library_db database:
 6.  create table admin(
     adminId int NOT NULL AUTO_INCREMENT PRIMARY KEY,
     adminName varchar(50) NOT NULL,
