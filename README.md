@@ -6,7 +6,7 @@ HOW TO SETUP :
 3. Now lets' setup our database.
 4. Create a Database named library_db in PHPMyAdmin.
 5. Now run following code:
-   create table admin(
+6.  create table admin(
     adminId int NOT NULL AUTO_INCREMENT PRIMARY KEY,
     adminName varchar(50) NOT NULL,
     password varchar(50) NOT NULL,
