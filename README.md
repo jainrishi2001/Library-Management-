@@ -4,7 +4,7 @@ HOW TO SETUP :
 1. Fork this project and create a clone in your system.
 2. Now Save the Code1 Folder in your htdocs folder of XAMPP.
 3. Now lets' setup our database.
-4. Create a Database named library_db in PHPMyAdmin.
+4. Create a Database named library_db in PHPMyAdmin.(Ensure that you have connected PHPMyAdmin to MySQL once before otherwise it won't open)
 5. Now run following code in library_db database:
 6.  create table admin(
     adminId int NOT NULL AUTO_INCREMENT PRIMARY KEY,
@@ -40,3 +40,5 @@ create table borrow(
     bookId varchar(50) NOT NULL
     );
 7. This will create tables named admin, books, students and borrow in library_db database.
+8. Now add data of first user in admin table so that you can log-in into the website.(*And not get stuck on first page 😂*)
+9. Now open the website by typing https://localhost/code1/admin.php in your browser.
