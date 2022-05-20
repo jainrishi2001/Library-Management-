@@ -43,3 +43,7 @@ create table borrow(
 7. This will create tables named admin, books, students and borrow in library_db database.
 8. Now add data of first user in admin table so that you can log-in into the website.(*And not get stuck on first page 😂*)
 9. Now open the website by typing https://localhost/code1/admin.php in your browser.
+
+For any further questions email me at jainrishi2001@gmail.com.
+
+Adios!!
